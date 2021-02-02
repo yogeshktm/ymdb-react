@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ymdb-react/static/css/main.39c330d3.chunk.css",
+    "main.css": "/ymdb-react/static/css/main.c72de653.chunk.css",
     "main.js": "/ymdb-react/static/js/main.53b1040e.chunk.js",
     "main.js.map": "/ymdb-react/static/js/main.53b1040e.chunk.js.map",
     "runtime-main.js": "/ymdb-react/static/js/runtime-main.7282c736.js",
@@ -10,7 +10,7 @@
     "static/js/3.32c6ec96.chunk.js": "/ymdb-react/static/js/3.32c6ec96.chunk.js",
     "static/js/3.32c6ec96.chunk.js.map": "/ymdb-react/static/js/3.32c6ec96.chunk.js.map",
     "index.html": "/ymdb-react/index.html",
-    "static/css/main.39c330d3.chunk.css.map": "/ymdb-react/static/css/main.39c330d3.chunk.css.map",
+    "static/css/main.c72de653.chunk.css.map": "/ymdb-react/static/css/main.c72de653.chunk.css.map",
     "static/js/2.fc2a5f9a.chunk.js.LICENSE.txt": "/ymdb-react/static/js/2.fc2a5f9a.chunk.js.LICENSE.txt",
     "static/media/App.css": "/ymdb-react/static/media/bg1.1b2ec185.jpg",
     "static/media/logo.6ce24c58.svg": "/ymdb-react/static/media/logo.6ce24c58.svg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.7282c736.js",
     "static/js/2.fc2a5f9a.chunk.js",
-    "static/css/main.39c330d3.chunk.css",
+    "static/css/main.c72de653.chunk.css",
     "static/js/main.53b1040e.chunk.js"
   ]
 }
