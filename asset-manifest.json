@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.8ac8a44d.chunk.css",
-    "main.js": "/static/js/main.53b1040e.chunk.js",
-    "main.js.map": "/static/js/main.53b1040e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.4f6ccdca.js",
-    "runtime-main.js.map": "/static/js/runtime-main.4f6ccdca.js.map",
-    "static/js/2.fc2a5f9a.chunk.js": "/static/js/2.fc2a5f9a.chunk.js",
-    "static/js/2.fc2a5f9a.chunk.js.map": "/static/js/2.fc2a5f9a.chunk.js.map",
-    "static/js/3.32c6ec96.chunk.js": "/static/js/3.32c6ec96.chunk.js",
-    "static/js/3.32c6ec96.chunk.js.map": "/static/js/3.32c6ec96.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.8ac8a44d.chunk.css.map": "/static/css/main.8ac8a44d.chunk.css.map",
-    "static/js/2.fc2a5f9a.chunk.js.LICENSE.txt": "/static/js/2.fc2a5f9a.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/static/media/bg1.1b2ec185.jpg",
-    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
+    "main.css": "/ymdb-react/static/css/main.39c330d3.chunk.css",
+    "main.js": "/ymdb-react/static/js/main.53b1040e.chunk.js",
+    "main.js.map": "/ymdb-react/static/js/main.53b1040e.chunk.js.map",
+    "runtime-main.js": "/ymdb-react/static/js/runtime-main.7282c736.js",
+    "runtime-main.js.map": "/ymdb-react/static/js/runtime-main.7282c736.js.map",
+    "static/js/2.fc2a5f9a.chunk.js": "/ymdb-react/static/js/2.fc2a5f9a.chunk.js",
+    "static/js/2.fc2a5f9a.chunk.js.map": "/ymdb-react/static/js/2.fc2a5f9a.chunk.js.map",
+    "static/js/3.32c6ec96.chunk.js": "/ymdb-react/static/js/3.32c6ec96.chunk.js",
+    "static/js/3.32c6ec96.chunk.js.map": "/ymdb-react/static/js/3.32c6ec96.chunk.js.map",
+    "index.html": "/ymdb-react/index.html",
+    "static/css/main.39c330d3.chunk.css.map": "/ymdb-react/static/css/main.39c330d3.chunk.css.map",
+    "static/js/2.fc2a5f9a.chunk.js.LICENSE.txt": "/ymdb-react/static/js/2.fc2a5f9a.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/ymdb-react/static/media/bg1.1b2ec185.jpg",
+    "static/media/logo.6ce24c58.svg": "/ymdb-react/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4f6ccdca.js",
+    "static/js/runtime-main.7282c736.js",
     "static/js/2.fc2a5f9a.chunk.js",
-    "static/css/main.8ac8a44d.chunk.css",
+    "static/css/main.39c330d3.chunk.css",
     "static/js/main.53b1040e.chunk.js"
   ]
 }
