@@ -28,7 +28,7 @@ export class MovieCardContainer extends React.Component{
     this.getMovieDetails(defaultMovie);
   }
   getMovieDetails(movieName){
-    const apiUrl = "http://www.omdbapi.com/?";
+    const apiUrl = "https://www.omdbapi.com/?";
     const apiKey = "7c5d79b";
     const searchType = this.state.searchType;
     const finalUrl = apiUrl + 'apiKey=' + apiKey + '&t=' + movieName + '&type=' +searchType + '&plot=full';
