@@ -1,5 +1,6 @@
 :root {
   --container: 800px;
+  --placeholder-color: #ceb6b3;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap");
@@ -114,4 +115,11 @@ p {
 }
 .hidden {
   display: none;
+}
+.placeholder * {
+  background: var(--placeholder-color);
+  height: 20px;
+}
+.title-ph {
+  height: 30px;
 }

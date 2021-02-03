@@ -1,7 +1,7 @@
 import React from 'react';
 export class MovieCard extends React.Component{
     render(){
-        const {imdbID,totalSeasons,imdbRating,Title,Poster,Year,Actors,Plot,Language,Genre,Director,Runtime,Country} = this.props.fullData;
+        const {imdbID,imdbRating,Title,Poster,Year,Actors,Plot,Language,Genre,Director,Runtime,Country} = this.props.fullData;
         let imdbLink = 'https://imdb.com/title/' + imdbID;
         return(
           <>

@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { MovieCard } from '../../components/MovieCard';
+import { MovieCardPlaceholder } from '../../components/MovieCardPlaceholder';
 
 export class MovieCardContainer extends React.Component{
   constructor(props){
@@ -12,7 +13,8 @@ export class MovieCardContainer extends React.Component{
       movieData:"",
       searchKeyword:"",
       notFound: false,
-      searchType: "movie"
+      searchType: "movie",
+      isLoading: false
     };
     this.getMovieDetails = this.getMovieDetails.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -32,17 +34,19 @@ export class MovieCardContainer extends React.Component{
     const apiKey = "7c5d79b";
     const searchType = this.state.searchType;
     const finalUrl = apiUrl + 'apiKey=' + apiKey + '&t=' + movieName + '&type=' +searchType + '&plot=full';
-    fetch(finalUrl)
-        .then(response => response.json())
-        .then(this.handleResponse)
-        .then(
-            // data => console.log(data),
-            data => this.setState({
-                movieData:data
-            })
-        )
-        .catch(error => console.log(error) );
-
+    this.setState({isLoading: true},() => {
+      fetch(finalUrl)
+      .then(response => response.json())
+      .then(this.handleResponse)
+      .then(
+          // data => console.log(data),
+          data => this.setState({
+              isLoading:false,
+              movieData:data
+          })
+      )
+      .catch(error => console.log(error) );
+    })
   }
   handleResponse (response){
     if (response.Response === "False") {
@@ -81,12 +85,16 @@ export class MovieCardContainer extends React.Component{
   render(){
       return(
         <div class="container">
+          { 
+          this.state.isLoading ? 
+          <MovieCardPlaceholder></MovieCardPlaceholder> :
           <MovieCard notFound={this.state.notFound} 
           handleChange={this.handleChange} 
           handleSubmit={this.handleSubmit}
           handleMovieTypeChange={this.handleMovieTypeChange} 
           fullData={this.state.movieData}>
-          </MovieCard>
+          </MovieCard> 
+          }
           {
             this.state.notFound ? <p>Movie not found</p> : null
           }
